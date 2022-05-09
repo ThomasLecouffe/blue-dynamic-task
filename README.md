@@ -24,4 +24,5 @@ First, the task was really interesting. It allows me to discover the gRPC techno
 - The client code can be improved by implementing a real test (like unit tests). With the tests written, I try to test the main functionalities of the microservice. But it's not tests.
 - I just separated the code of the client and server in two distinct files for simplicity but I think it can be separating in two different modules.
 - I created docker containers for MongoDB and I didn't provide any identification. I did it also for the easiest implementation but it's not secure and in a real implementation it should be configured correctly.
+- One of the requirements was 'Database should be designed mainly for fast selections rather than inserts'. I'm not sure to have accomplished it, and I'm not sure how to do it. I will be happy to have your suggestions on this specific point.
 - I noticed a few typos in the db.proto file. I think I fix it (see the db.proto).
